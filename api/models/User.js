@@ -30,26 +30,19 @@ module.exports = {
   
   attributes: {
 
+  
     name: {
-      type: 'string',
-      required: true,
-      minLength: 3,
-      maxLength: 30
+      type: 'STRING',
     },
 
-   
-
-    email:{ 
-      type: 'email',
-      required: true,
-      unique: true
+    email: {
+      type: 'STRING',
+      unique: true,
+      email: true,
     },
 
-    password:{
-      type: 'string',
-      required: true,
-      minLength: 6,
-      maxLength: 50
+    password: {
+      type: 'STRING',
     },
 
 
