@@ -3,10 +3,10 @@ Kullanılan npm paketleri : sails-js, sails-mongo, waterlock
 
 Web Api conroller erişimleri config/policies.js içinden yönetilecek
 
-Web Api List;
-Store List : http://localhost:1337/store/
-Product Categories List  : http://localhost:1337/categories/
-Product  List  : http://localhost:1337/products/
-User Create : http://localhost:1337/user/create
-User Get  Json Web Token : http://localhost:1337/user/jwt
+Web Api List;<br>
+Store List : http://localhost:1337/store/<br>
+Product Categories List  : http://localhost:1337/categories/<br>
+Product  List  : http://localhost:1337/products/<br>
+User Create : http://localhost:1337/user/create<br>
+User Get  Json Web Token : http://localhost:1337/user/jwt<br>
 
