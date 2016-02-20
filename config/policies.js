@@ -32,7 +32,13 @@ module.exports.policies = {
       restricted:["sessionAuth"],
       open:true,
       jwt:["hasJsonWebToken"]
+    },
+
+
+    OrderController:{
+      '*': ['hasJsonWebToken']
     }
+
   /***************************************************************************
   *                                                                          *
   * Here's an example of mapping some policies to run before a controller    *
