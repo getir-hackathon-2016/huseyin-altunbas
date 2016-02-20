@@ -33,5 +33,8 @@
     "url": "git://github.com/huseyin/webApi.git"
   },
   "author": "huseyin",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "grunt-forever": "^0.4.7"
+  }
 }

@@ -13,6 +13,9 @@ module.exports = {
     /* e.g.
     nickname: 'string'
     */
+
+
+
     
   }),
   
@@ -88,4 +91,5 @@ module.exports = {
       return cb();
     }
   }
+
 };
